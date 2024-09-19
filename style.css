@@ -1,7 +1,27 @@
 body{
     background-color:red;
     color:black;
-    font-family: "Playwrite Cuba", sans-serif;
+    font-family: "Playwrite Cuba", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
 
-}
+
+    button {
+        background-color: beige;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .passo {
+        display: none;
+    }
+
+    .passo.ativo {
+        display:block;
+    }    
+
+    }
  
